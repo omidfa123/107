@@ -15,6 +15,10 @@ module.exports = {
           "Noto Color Emoji",
         ],
       },
+      gridTemplateColumns: {
+        fluid: "repeat(auto-fit , minmax(280px , 1fr))",
+        container: "minmax(auto , 1440px)",
+      },
     },
   },
   plugins: [],
