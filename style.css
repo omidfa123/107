@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 100;
+  src: url("./assets/fonts/IRANYekanX-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/IRANYekanX-UltraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/IRANYekanX-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/IRANYekanX-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/IRANYekanX-DemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("./assets/fonts/IRANYekanX-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 950;
+  src: url("./assets/fonts/IRANYekanX-ExtraBlack.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: 1000;
+  src: url("./assets/fonts/IRANYekanX-Heavy.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/fonts/IRANYekanX-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/IRANYekanX-Regular.woff2") format("woff2");
+}
