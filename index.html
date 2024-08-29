@@ -13,9 +13,9 @@
       </header>
     </section>
     <section class="flex-1">
-      <main class="flex size-full">
+      <main class="flex size-full container mx-auto">
         <aside
-          class="w-72 border-l-2 border-gray-100 shadow-sm px-4 py-8 space-y-8"
+          class="w-[400px] border-2 border-gray-100 shadow-sm px-4 py-8 space-y-8"
         >
           <h4 class="text-xl font-semibold">اضافه کردن تودو</h4>
           <form class="flex flex-col h-full gap-8" id="moz-form">
@@ -60,10 +60,18 @@
           </form>
         </aside>
         <section
-          class="grid grid-cols-fluid p-8 gap-8 w-full items-start"
-          id="todo-container"
+          class="w-full items-start relative bg-banana bg-repeat bg-contain bg-origin-content bg-clip-border"
         >
-          <p class="text-2xl text-center">هیچ تودوی موزی موجود ندارد</p>
+          <div
+            class="w-full h-full bg-black absolute inset-0 bg-opacity-25"
+          ></div>
+          <div class="p-4 grid grid-cols-fluid gap-8" id="todo-container">
+            <p
+              class="text-2xl text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
+            >
+              هیچ تودوی موزی موجود ندارد
+            </p>
+          </div>
         </section>
       </main>
     </section>

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./main.js"],
   theme: {
     extend: {
       fontFamily: {
@@ -18,6 +18,9 @@ module.exports = {
       gridTemplateColumns: {
         fluid: "repeat(auto-fit , minmax(280px , 1fr))",
         container: "minmax(auto , 1440px)",
+      },
+      backgroundImage: {
+        banana: "url('/assets/images/banana-pattern.png')",
       },
     },
   },
